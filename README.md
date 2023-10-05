@@ -9,14 +9,14 @@ Works on **Python 3+** and **Django 3+**.
 1. Install dependencies:
 
 ```
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 2. Run migrations & start the server:
 
 ```
-python manage.py migrate
-python manage.py runserver
+python3 manage.py migrate
+python3 manage.py runserver
 ```
 
 ## Testing
