@@ -25,3 +25,6 @@ class PingView(APIView):
 
     def get(self, *args, **kwargs):
         return Response({'ping': 'pong'}, status=status.HTTP_200_OK)
+    
+    def post(self, *args, **kwargs):
+        return Response({'ping': 'pong'}, status=status.HTTP_200_OK)
